@@ -1,6 +1,4 @@
-//Gabriel Resende Menezes: 10419003
-//Henrique Nunes Mamede Rosa: 10273460
-//Ferb Garcia Carmona Scomparini: 10417041
+//Gabriel Menezes
 
 #include <stdio.h>
 #include <stdlib.h>
