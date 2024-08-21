@@ -1,5 +1,4 @@
-Simplesmente um WORDLE. O jogo deve elecionar apenas as palavras com 5 letras do arquivo "dicionario" e escolher uma para o jogador adivinhar.
-<br>
+Simplesmente um WORDLE. O jogo deve elecionar apenas as palavras com 5 letras do arquivo "dicionario" e escolher uma para o jogador adivinhar. <br>
 ^ para posição correta, letra correta
 <br>
 ! para letra correta, posição errada
