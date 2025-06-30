@@ -89,25 +89,3 @@ Gabriel Menezes
 
 ⭐ Dê uma estrela
 Se curtiu o projeto, deixe uma ⭐ no repositório para apoiar e ajudar na divulgação!
-
-perl
-Copiar
-Editar
-
-Você pode copiar esse conteúdo e substituir seu `README.md` no repositório.  
-Se quiser que eu te gere também um GIF de exemplo ou preview para incluir no README, é só me avisar.
-
-
-
-
-
-
-
-
-Perguntar ao ChatGPT
-
-
-
-Ferramentas
-
-
