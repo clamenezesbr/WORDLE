@@ -1,4 +1,4 @@
-# 🟩 Wordle em C
+# 🟩 Quase Wordle em C
 
 Um mini-clone do clássico jogo **Wordle**, escrito em linguagem C para rodar no terminal.  
 Ideal para praticar lógica, manipulação de arquivos e strings!  
@@ -7,7 +7,8 @@ Ideal para praticar lógica, manipulação de arquivos e strings!
 
 ## 🎯 Objetivo
 
-Adivinhar uma **palavra de 5 letras** escolhida aleatoriamente entre várias disponíveis no `dicionario.txt`. Você tem **6 tentativas** para acertar!
+Adivinhar uma **palavra de 5 letras** escolhida aleatoriamente entre várias disponíveis no `dicionario.txt`.  
+Você tem **6 tentativas** para acertar!
 
 ---
 
@@ -41,12 +42,14 @@ Editar
 
 ## ⚙️ Como Compilar
 
-1. Certifique-se de ter o GCC instalado.
-2. Execute o seguinte comando no terminal:
+Certifique-se de ter o compilador `gcc` instalado.  
+No terminal, execute:
 
 ```bash
 gcc main.c -o wordle
 ▶️ Como Rodar
+Após a compilação:
+
 bash
 Copiar
 Editar
@@ -56,17 +59,17 @@ Editar
 
 📚 As palavras são lidas do arquivo dicionario.txt.
 
-🎯 Uma palavra aleatória é escolhida para a rodada.
+🎯 Uma palavra aleatória é escolhida para cada rodada.
 
-📃 Jogadores que acertam têm seus dados salvos em scores.txt:
+📃 Jogadores que acertam têm seus dados registrados em scores.txt:
 
-Nome
+Nome do jogador
 
 Palavra correta
 
-Número de tentativas
+Número de tentativas usadas
 
-Timestamp da vitória
+Timestamp
 
 🧪 Exemplo de Jogo
 objectivec
@@ -85,15 +88,26 @@ Gabriel Menezes
 📧 gabriel.menezes@outlook.com
 
 ⭐ Dê uma estrela
-Se curtiu o projeto, deixe uma ⭐ no repositório para apoiar!
+Se curtiu o projeto, deixe uma ⭐ no repositório para apoiar e ajudar na divulgação!
 
-markdown
+perl
 Copiar
 Editar
 
-Se quiser, posso te ajudar a:
-- Criar os arquivos `dicionario.txt` e `scores.txt` vazios para upload.
-- Criar os badges de status (como linguagem, licença, etc).
-- Colocar uma imagem demonstrativa ou GIF no terminal com exemplo do jogo.
+Você pode copiar esse conteúdo e substituir seu `README.md` no repositório.  
+Se quiser que eu te gere também um GIF de exemplo ou preview para incluir no README, é só me avisar.
 
-É só falar!
+
+
+
+
+
+
+
+Perguntar ao ChatGPT
+
+
+
+Ferramentas
+
+
