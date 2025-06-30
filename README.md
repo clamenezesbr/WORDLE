@@ -1,8 +1,3 @@
-Perfeito! Abaixo está a versão ideal do `README.md` para ser usada diretamente no GitHub, com formatação Markdown completa, emojis para destacar e instruções claras:
-
----
-
-```markdown
 # 🟩 Quase Wordle em C
 
 Um mini-clone do clássico jogo **Wordle**, escrito em linguagem C para rodar no terminal.  
@@ -32,15 +27,15 @@ Adivinhar uma **palavra de 5 letras** escolhida aleatoriamente entre várias dis
 
 ## 📁 Estrutura do Projeto
 
-```
-
 📂 QuaseWordle/
-├── main.c            # Código-fonte do jogo
-├── dicionario.txt    # Lista de palavras válidas (5 letras)
-├── scores.txt        # Registro das partidas vencidas
-└── README.md         # Este arquivo
+├── main.c # Código-fonte do jogo
+├── dicionario.txt # Lista de palavras válidas (5 letras)
+├── scores.txt # Registro das partidas vencidas
+└── README.md # Este arquivo
 
-````
+yaml
+Copiar
+Editar
 
 ---
 
@@ -51,35 +46,32 @@ Adivinhar uma **palavra de 5 letras** escolhida aleatoriamente entre várias dis
 
 ```bash
 gcc main.c -o wordle
-````
-
----
-
-## ▶️ Como Rodar
-
-```bash
+▶️ Como Rodar
+bash
+Copiar
+Editar
 ./wordle
-```
+💾 Funcionamento Interno
+✅ Apenas palavras de 5 letras são consideradas válidas.
 
----
+📚 As palavras são lidas do arquivo dicionario.txt.
 
-## 💾 Funcionamento Interno
+🎯 Uma palavra aleatória é escolhida para a rodada.
 
-* ✅ Apenas palavras de 5 letras são consideradas válidas.
-* 📚 As palavras são lidas do arquivo `dicionario.txt`.
-* 🎯 Uma palavra aleatória é escolhida para a rodada.
-* 📃 Jogadores que acertam têm seus dados salvos em `scores.txt`:
+📃 Jogadores que acertam têm seus dados salvos em scores.txt:
 
-  * Nome
-  * Palavra correta
-  * Número de tentativas
-  * Timestamp da vitória
+Nome
 
----
+Palavra correta
 
-## 🧪 Exemplo de Jogo
+Número de tentativas
 
-```
+Timestamp da vitória
+
+🧪 Exemplo de Jogo
+objectivec
+Copiar
+Editar
 Bem-vindo ao quase Wordle!
 
 Uma palavra de 5 letras foi escolhida aleatoriamente do dicionário.
@@ -87,25 +79,17 @@ Tente adivinhar qual é!
 
 Tentativa 1 de 6: CASAR
 Resultado: x^x!x
-```
+🙋‍♂️ Autor
+Gabriel Menezes
+🔗 LinkedIn
+📧 gabriel.menezes@outlook.com
 
----
-
-## 🙋‍♂️ Autor
-
-**Gabriel Menezes**
-🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes/)
-📧 [gabriel.menezes@outlook.com](mailto:gabriel.menezes@outlook.com)
-
----
-
-## ⭐ Dê uma estrela
-
+⭐ Dê uma estrela
 Se curtiu o projeto, deixe uma ⭐ no repositório para apoiar!
 
----
-
-```
+markdown
+Copiar
+Editar
 
 Se quiser, posso te ajudar a:
 - Criar os arquivos `dicionario.txt` e `scores.txt` vazios para upload.
@@ -113,4 +97,3 @@ Se quiser, posso te ajudar a:
 - Colocar uma imagem demonstrativa ou GIF no terminal com exemplo do jogo.
 
 É só falar!
-```
