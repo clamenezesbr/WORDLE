@@ -1,4 +1,4 @@
-# 🟩 Quase Wordle em C
+# 🟩 Wordle em C
 
 Um mini-clone do clássico jogo **Wordle**, escrito em linguagem C para rodar no terminal.  
 Ideal para praticar lógica, manipulação de arquivos e strings!  
