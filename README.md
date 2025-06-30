@@ -1,7 +1,7 @@
 # 🟩 Quase Wordle em C
 
 Um mini-clone do clássico jogo **Wordle**, escrito em linguagem C para rodar no terminal.  
-Ideal para praticar lógica, manipulação de arquivos e strings!  
+Ideal para praticar lógica, manipulação de arquivos e strings!
 
 ---
 
@@ -28,15 +28,13 @@ Você tem **6 tentativas** para acertar!
 
 ## 📁 Estrutura do Projeto
 
+```
 📂 QuaseWordle/
-├── main.c # Código-fonte do jogo
-├── dicionario.txt # Lista de palavras válidas (5 letras)
-├── scores.txt # Registro das partidas vencidas
-└── README.md # Este arquivo
-
-yaml
-Copiar
-Editar
+├── main.c            # Código-fonte do jogo
+├── dicionario.txt    # Lista de palavras válidas (5 letras)
+├── scores.txt        # Registro das partidas vencidas
+└── README.md         # Este arquivo
+```
 
 ---
 
@@ -47,34 +45,36 @@ No terminal, execute:
 
 ```bash
 gcc main.c -o wordle
-▶️ Como Rodar
-Após a compilação:
+```
 
-bash
-Copiar
-Editar
+---
+
+## ▶️ Como Rodar
+
+Após a compilação, execute o programa com:
+
+```bash
 ./wordle
-💾 Funcionamento Interno
-✅ Apenas palavras de 5 letras são consideradas válidas.
+```
 
-📚 As palavras são lidas do arquivo dicionario.txt.
+---
 
-🎯 Uma palavra aleatória é escolhida para cada rodada.
+## 💾 Funcionamento Interno
 
-📃 Jogadores que acertam têm seus dados registrados em scores.txt:
+- ✅ Apenas palavras de 5 letras são consideradas válidas.
+- 📚 As palavras são lidas do arquivo `dicionario.txt`.
+- 🎯 Uma palavra aleatória é escolhida para cada rodada.
+- 📃 Jogadores que acertam têm seus dados registrados em `scores.txt`, incluindo:
+  - Nome do jogador
+  - Palavra correta
+  - Número de tentativas usadas
+  - Timestamp
 
-Nome do jogador
+---
 
-Palavra correta
+## 🧪 Exemplo de Jogo
 
-Número de tentativas usadas
-
-Timestamp
-
-🧪 Exemplo de Jogo
-objectivec
-Copiar
-Editar
+```text
 Bem-vindo ao quase Wordle!
 
 Uma palavra de 5 letras foi escolhida aleatoriamente do dicionário.
@@ -82,10 +82,18 @@ Tente adivinhar qual é!
 
 Tentativa 1 de 6: CASAR
 Resultado: x^x!x
-🙋‍♂️ Autor
-Gabriel Menezes
-🔗 LinkedIn
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Gabriel Menezes**  
+🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-resende-menezes)  
 📧 gabriel.menezes@outlook.com
 
-⭐ Dê uma estrela
+---
+
+## ⭐ Dê uma estrela
+
 Se curtiu o projeto, deixe uma ⭐ no repositório para apoiar e ajudar na divulgação!
