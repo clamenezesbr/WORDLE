@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc main.c -o wordle.exe)",
+      "PowerShell(Get-Command gcc, cl, clang -ErrorAction SilentlyContinue)",
+      "PowerShell($env:PATH -split \";\" | Where-Object { $_ -ne \"\" })",
+      "PowerShell(Get-ChildItem \"C:\\\\ProgramData\\\\chocolatey\\\\bin\" | Where-Object { $_.Name -match \"gcc|cl|mingw|clang\" })",
+      "Read(//c/msys64/mingw64/bin/**)",
+      "Read(//c/msys64/**)",
+      "PowerShell(& \"C:\\\\msys64\\\\usr\\\\bin\\\\bash.exe\" -l -c \"pacman -S --noconfirm mingw-w64-x86_64-gcc\" 2>&1)",
+      "PowerShell(& \"C:\\\\msys64\\\\mingw64\\\\bin\\\\gcc.exe\" \"C:\\\\Users\\\\g50046371\\\\Desktop\\\\GIT\\\\WORDLE\\\\main.c\" -o \"C:\\\\Users\\\\g50046371\\\\Desktop\\\\GIT\\\\WORDLE\\\\wordle.exe\" 2>&1)",
+      "PowerShell(& \"C:\\\\msys64\\\\mingw64\\\\bin\\\\gcc.exe\" \"C:\\\\Users\\\\g50046371\\\\Desktop\\\\GIT\\\\WORDLE\\\\main.c\" -o \"C:\\\\Users\\\\g50046371\\\\Desktop\\\\GIT\\\\WORDLE\\\\wordle.exe\")",
+      "Bash(/c/msys64/mingw64/bin/gcc.exe \"/c/Users/g50046371/Desktop/GIT/WORDLE/main.c\" -o \"/c/Users/g50046371/Desktop/GIT/WORDLE/wordle.exe\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s -I \"https://raw.githubusercontent.com/AlfredoFilho/Palavras_PT-BR/master/Palavras_PT-BR.txt\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/AlfredoFilho/Palavras_PT-BR/master/Palavras_PT-BR.txt\")"
+    ]
+  }
+}
