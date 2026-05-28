@@ -3,7 +3,14 @@
 Um mini-clone do clássico jogo **Wordle**, escrito em linguagem C para rodar no terminal.  
 Ideal para praticar lógica, manipulação de arquivos e strings!
 
+
+```
+Update Here: #readme2.md
+```
+
 ---
+
+
 
 ## 🎯 Objetivo
 
